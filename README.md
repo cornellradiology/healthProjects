@@ -1,5 +1,5 @@
 # healthProjects
-Narratives for ongoing and past Health Projects at Cornell Radiology
+Narratives for Weill Cornell Radiology Collaborations with Computing & Information Science
 
 ## Summary of Ongoing Projects 
 
