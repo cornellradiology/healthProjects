@@ -5,7 +5,6 @@ Narratives for ongoing and past Health Projects at Cornell Radiology
 
 [Please got to Wiki Page for details](https://github.com/cornellradiology/healthProjects/wiki)
 
-----
 #### Daisy - Patient Companion App
 
 
