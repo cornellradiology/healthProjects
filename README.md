@@ -35,5 +35,14 @@ The technology used are
 * Parser : pyParsing
 * Negation extraction and other NLP: Lingscope
 
+#### Computational Healthcare - Search & Aggregation Engine for Medical records and Claims 
+
+Computational Healthcare indexes and aggregates data from millions of healthcare visits. Using novel aggregation strategies it simplifies data analysis, replication and dissemination process. Researchers can conduct millions of different studies in few clicks. Computational Healthcare is developed in collaboration with Radiology and Anesthesiology departments at Weill Cornell Medical College, Cornell University.
+
+[website](http://www.computationalhealthcare.com)
+
+
+#### Automated protocoling for CT orders using Machine Learning
+
 
 
