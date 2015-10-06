@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9B5E22A1BBF4FDF00853C9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B5E2291BBF4FDF00853C9D /* AppDelegate.swift */; };
+		C9B5E2311BBF4FDF00853C9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B5E22F1BBF4FDF00853C9D /* Main.storyboard */; };
+		C9B5E2331BBF4FDF00853C9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9B5E2321BBF4FDF00853C9D /* Assets.xcassets */; };
+		C9B5E2361BBF4FDF00853C9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B5E2341BBF4FDF00853C9D /* LaunchScreen.storyboard */; };
+		C9B5E2411BBF4FDF00853C9D /* HealthProject_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B5E2401BBF4FDF00853C9D /* HealthProject_iOSTests.swift */; };
+		C9B5E24C1BBF4FDF00853C9D /* HealthProject_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B5E24B1BBF4FDF00853C9D /* HealthProject_iOSUITests.swift */; };
+		C9B5E2681BBF50E000853C9D /* NetworkUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B5E2641BBF50E000853C9D /* NetworkUtil.swift */; settings = {ASSET_TAGS = (); }; };
+		C9B5E2691BBF50E000853C9D /* NetworkUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B5E2641BBF50E000853C9D /* NetworkUtil.swift */; settings = {ASSET_TAGS = (); }; };
+		C9B5E26A1BBF50E000853C9D /* NetworkUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B5E2641BBF50E000853C9D /* NetworkUtil.swift */; settings = {ASSET_TAGS = (); }; };
+		C9E001A51BBF568D007E97A5 /* TRVSMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E001A41BBF568D007E97A5 /* TRVSMonitor.m */; settings = {ASSET_TAGS = (); }; };
+		C9E001A61BBF568D007E97A5 /* TRVSMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E001A41BBF568D007E97A5 /* TRVSMonitor.m */; settings = {ASSET_TAGS = (); }; };
+		C9E001A71BBF568D007E97A5 /* TRVSMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E001A41BBF568D007E97A5 /* TRVSMonitor.m */; settings = {ASSET_TAGS = (); }; };
+		F2AF96870D60A4DD2CAD613E /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E4560344CFE558E7E4F31C /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9B5E23D1BBF4FDF00853C9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9B5E21E1BBF4FDF00853C9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9B5E2251BBF4FDF00853C9D;
+			remoteInfo = "HealthProject-iOS";
+		};
+		C9B5E2481BBF4FDF00853C9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9B5E21E1BBF4FDF00853C9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9B5E2251BBF4FDF00853C9D;
+			remoteInfo = "HealthProject-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C0CFED770BFD4F41D05E4FE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		61373CEBE3FEBF002269B5F2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		67E4560344CFE558E7E4F31C /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B5E2261BBF4FDF00853C9D /* HealthProject-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HealthProject-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B5E2291BBF4FDF00853C9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9B5E2301BBF4FDF00853C9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9B5E2321BBF4FDF00853C9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9B5E2351BBF4FDF00853C9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9B5E2371BBF4FDF00853C9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9B5E23C1BBF4FDF00853C9D /* HealthProject-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HealthProject-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B5E2401BBF4FDF00853C9D /* HealthProject_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthProject_iOSTests.swift; sourceTree = "<group>"; };
+		C9B5E2421BBF4FDF00853C9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9B5E2471BBF4FDF00853C9D /* HealthProject-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HealthProject-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B5E24B1BBF4FDF00853C9D /* HealthProject_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthProject_iOSUITests.swift; sourceTree = "<group>"; };
+		C9B5E24D1BBF4FDF00853C9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9B5E2641BBF50E000853C9D /* NetworkUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkUtil.swift; path = Network/NetworkUtil.swift; sourceTree = "<group>"; };
+		C9E001A01BBF568D007E97A5 /* HealthProject-iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HealthProject-iOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		C9E001A11BBF568D007E97A5 /* HealthProject-iOSTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HealthProject-iOSTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		C9E001A21BBF568D007E97A5 /* HealthProject-iOSUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HealthProject-iOSUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		C9E001A31BBF568D007E97A5 /* TRVSMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TRVSMonitor.h; path = Util/TRVSMonitor.h; sourceTree = "<group>"; };
+		C9E001A41BBF568D007E97A5 /* TRVSMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TRVSMonitor.m; path = Util/TRVSMonitor.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9B5E2231BBF4FDF00853C9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2AF96870D60A4DD2CAD613E /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B5E2391BBF4FDF00853C9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B5E2441BBF4FDF00853C9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9B5E21D1BBF4FDF00853C9D = {
+			isa = PBXGroup;
+			children = (
+				C9B5E2281BBF4FDF00853C9D /* HealthProject-iOS */,
+				C9B5E23F1BBF4FDF00853C9D /* HealthProject-iOSTests */,
+				C9B5E24A1BBF4FDF00853C9D /* HealthProject-iOSUITests */,
+				C9B5E2271BBF4FDF00853C9D /* Products */,
+				D8529EF4D47697DC6918F272 /* Pods */,
+				D84A79A14C6D114859C3E011 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C9B5E2271BBF4FDF00853C9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9B5E2261BBF4FDF00853C9D /* HealthProject-iOS.app */,
+				C9B5E23C1BBF4FDF00853C9D /* HealthProject-iOSTests.xctest */,
+				C9B5E2471BBF4FDF00853C9D /* HealthProject-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9B5E2281BBF4FDF00853C9D /* HealthProject-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C9E0019F1BBF567A007E97A5 /* Util */,
+				C9B5E25A1BBF501500853C9D /* Network */,
+				C9B5E2291BBF4FDF00853C9D /* AppDelegate.swift */,
+				C9B5E22F1BBF4FDF00853C9D /* Main.storyboard */,
+				C9B5E2321BBF4FDF00853C9D /* Assets.xcassets */,
+				C9B5E2341BBF4FDF00853C9D /* LaunchScreen.storyboard */,
+				C9B5E2371BBF4FDF00853C9D /* Info.plist */,
+			);
+			path = "HealthProject-iOS";
+			sourceTree = "<group>";
+		};
+		C9B5E23F1BBF4FDF00853C9D /* HealthProject-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9B5E2401BBF4FDF00853C9D /* HealthProject_iOSTests.swift */,
+				C9B5E2421BBF4FDF00853C9D /* Info.plist */,
+			);
+			path = "HealthProject-iOSTests";
+			sourceTree = "<group>";
+		};
+		C9B5E24A1BBF4FDF00853C9D /* HealthProject-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9B5E24B1BBF4FDF00853C9D /* HealthProject_iOSUITests.swift */,
+				C9B5E24D1BBF4FDF00853C9D /* Info.plist */,
+			);
+			path = "HealthProject-iOSUITests";
+			sourceTree = "<group>";
+		};
+		C9B5E25A1BBF501500853C9D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C9B5E2641BBF50E000853C9D /* NetworkUtil.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		C9E0019F1BBF567A007E97A5 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				C9E001A31BBF568D007E97A5 /* TRVSMonitor.h */,
+				C9E001A41BBF568D007E97A5 /* TRVSMonitor.m */,
+				C9E001A01BBF568D007E97A5 /* HealthProject-iOS-Bridging-Header.h */,
+				C9E001A11BBF568D007E97A5 /* HealthProject-iOSTests-Bridging-Header.h */,
+				C9E001A21BBF568D007E97A5 /* HealthProject-iOSUITests-Bridging-Header.h */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		D84A79A14C6D114859C3E011 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67E4560344CFE558E7E4F31C /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8529EF4D47697DC6918F272 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61373CEBE3FEBF002269B5F2 /* Pods.debug.xcconfig */,
+				1C0CFED770BFD4F41D05E4FE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9B5E2251BBF4FDF00853C9D /* HealthProject-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9B5E2501BBF4FDF00853C9D /* Build configuration list for PBXNativeTarget "HealthProject-iOS" */;
+			buildPhases = (
+				6A6DB4C3071D7ED690C426A8 /* Check Pods Manifest.lock */,
+				C9B5E2221BBF4FDF00853C9D /* Sources */,
+				C9B5E2231BBF4FDF00853C9D /* Frameworks */,
+				C9B5E2241BBF4FDF00853C9D /* Resources */,
+				D9C5AD985AD73D9BA96636A0 /* Copy Pods Resources */,
+				0ABF4FFA121BC45D040D1D68 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HealthProject-iOS";
+			productName = "HealthProject-iOS";
+			productReference = C9B5E2261BBF4FDF00853C9D /* HealthProject-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9B5E23B1BBF4FDF00853C9D /* HealthProject-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9B5E2531BBF4FDF00853C9D /* Build configuration list for PBXNativeTarget "HealthProject-iOSTests" */;
+			buildPhases = (
+				C9B5E2381BBF4FDF00853C9D /* Sources */,
+				C9B5E2391BBF4FDF00853C9D /* Frameworks */,
+				C9B5E23A1BBF4FDF00853C9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9B5E23E1BBF4FDF00853C9D /* PBXTargetDependency */,
+			);
+			name = "HealthProject-iOSTests";
+			productName = "HealthProject-iOSTests";
+			productReference = C9B5E23C1BBF4FDF00853C9D /* HealthProject-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9B5E2461BBF4FDF00853C9D /* HealthProject-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9B5E2561BBF4FDF00853C9D /* Build configuration list for PBXNativeTarget "HealthProject-iOSUITests" */;
+			buildPhases = (
+				C9B5E2431BBF4FDF00853C9D /* Sources */,
+				C9B5E2441BBF4FDF00853C9D /* Frameworks */,
+				C9B5E2451BBF4FDF00853C9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9B5E2491BBF4FDF00853C9D /* PBXTargetDependency */,
+			);
+			name = "HealthProject-iOSUITests";
+			productName = "HealthProject-iOSUITests";
+			productReference = C9B5E2471BBF4FDF00853C9D /* HealthProject-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9B5E21E1BBF4FDF00853C9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Weill.Cornell;
+				TargetAttributes = {
+					C9B5E2251BBF4FDF00853C9D = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					C9B5E23B1BBF4FDF00853C9D = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = C9B5E2251BBF4FDF00853C9D;
+					};
+					C9B5E2461BBF4FDF00853C9D = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = C9B5E2251BBF4FDF00853C9D;
+					};
+				};
+			};
+			buildConfigurationList = C9B5E2211BBF4FDF00853C9D /* Build configuration list for PBXProject "HealthProject-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9B5E21D1BBF4FDF00853C9D;
+			productRefGroup = C9B5E2271BBF4FDF00853C9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9B5E2251BBF4FDF00853C9D /* HealthProject-iOS */,
+				C9B5E23B1BBF4FDF00853C9D /* HealthProject-iOSTests */,
+				C9B5E2461BBF4FDF00853C9D /* HealthProject-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9B5E2241BBF4FDF00853C9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B5E2361BBF4FDF00853C9D /* LaunchScreen.storyboard in Resources */,
+				C9B5E2331BBF4FDF00853C9D /* Assets.xcassets in Resources */,
+				C9B5E2311BBF4FDF00853C9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B5E23A1BBF4FDF00853C9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B5E2451BBF4FDF00853C9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0ABF4FFA121BC45D040D1D68 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A6DB4C3071D7ED690C426A8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D9C5AD985AD73D9BA96636A0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9B5E2221BBF4FDF00853C9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E001A51BBF568D007E97A5 /* TRVSMonitor.m in Sources */,
+				C9B5E22A1BBF4FDF00853C9D /* AppDelegate.swift in Sources */,
+				C9B5E2681BBF50E000853C9D /* NetworkUtil.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B5E2381BBF4FDF00853C9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E001A61BBF568D007E97A5 /* TRVSMonitor.m in Sources */,
+				C9B5E2411BBF4FDF00853C9D /* HealthProject_iOSTests.swift in Sources */,
+				C9B5E2691BBF50E000853C9D /* NetworkUtil.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B5E2431BBF4FDF00853C9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E001A71BBF568D007E97A5 /* TRVSMonitor.m in Sources */,
+				C9B5E24C1BBF4FDF00853C9D /* HealthProject_iOSUITests.swift in Sources */,
+				C9B5E26A1BBF50E000853C9D /* NetworkUtil.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9B5E23E1BBF4FDF00853C9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9B5E2251BBF4FDF00853C9D /* HealthProject-iOS */;
+			targetProxy = C9B5E23D1BBF4FDF00853C9D /* PBXContainerItemProxy */;
+		};
+		C9B5E2491BBF4FDF00853C9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9B5E2251BBF4FDF00853C9D /* HealthProject-iOS */;
+			targetProxy = C9B5E2481BBF4FDF00853C9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9B5E22F1BBF4FDF00853C9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9B5E2301BBF4FDF00853C9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9B5E2341BBF4FDF00853C9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9B5E2351BBF4FDF00853C9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9B5E24E1BBF4FDF00853C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9B5E24F1BBF4FDF00853C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9B5E2511BBF4FDF00853C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61373CEBE3FEBF002269B5F2 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "HealthProject-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Weill.Cornell.HealthProject-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HealthProject-iOS/HealthProject-iOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9B5E2521BBF4FDF00853C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C0CFED770BFD4F41D05E4FE /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "HealthProject-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Weill.Cornell.HealthProject-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HealthProject-iOS/HealthProject-iOS-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		C9B5E2541BBF4FDF00853C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "HealthProject-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Weill.Cornell.HealthProject-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HealthProject-iOS/HealthProject-iOSTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthProject-iOS.app/HealthProject-iOS";
+			};
+			name = Debug;
+		};
+		C9B5E2551BBF4FDF00853C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "HealthProject-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Weill.Cornell.HealthProject-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HealthProject-iOS/HealthProject-iOSTests-Bridging-Header.h";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthProject-iOS.app/HealthProject-iOS";
+			};
+			name = Release;
+		};
+		C9B5E2571BBF4FDF00853C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "HealthProject-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Weill.Cornell.HealthProject-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HealthProject-iOS/HealthProject-iOSUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_TARGET_NAME = "HealthProject-iOS";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C9B5E2581BBF4FDF00853C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "HealthProject-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Weill.Cornell.HealthProject-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HealthProject-iOS/HealthProject-iOSUITests-Bridging-Header.h";
+				TEST_TARGET_NAME = "HealthProject-iOS";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9B5E2211BBF4FDF00853C9D /* Build configuration list for PBXProject "HealthProject-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B5E24E1BBF4FDF00853C9D /* Debug */,
+				C9B5E24F1BBF4FDF00853C9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9B5E2501BBF4FDF00853C9D /* Build configuration list for PBXNativeTarget "HealthProject-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B5E2511BBF4FDF00853C9D /* Debug */,
+				C9B5E2521BBF4FDF00853C9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9B5E2531BBF4FDF00853C9D /* Build configuration list for PBXNativeTarget "HealthProject-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B5E2541BBF4FDF00853C9D /* Debug */,
+				C9B5E2551BBF4FDF00853C9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9B5E2561BBF4FDF00853C9D /* Build configuration list for PBXNativeTarget "HealthProject-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B5E2571BBF4FDF00853C9D /* Debug */,
+				C9B5E2581BBF4FDF00853C9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9B5E21E1BBF4FDF00853C9D /* Project object */;
+}
